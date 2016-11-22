@@ -1,5 +1,7 @@
 # hark-web
 
+image:https://travis-ci.org/hark-project/hark-web.svg?branch=develop["Build Status", link="https://travis-ci.org/hark-project/hark-web"]
+
 This is the web front-end for the https://hark-project.net[hark project].
 
 It's a small react-redux app.

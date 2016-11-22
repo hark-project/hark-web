@@ -1,0 +1,17 @@
+# hark-web
+
+This is the web front-end for the https://hark-project.net[hark project].
+
+It's a small react-redux app.
+
+## Development
+
+Dependencies:
+
+* nodejs
+* yarn
+
+To run the dev server:
+
+    yarn
+    npm start

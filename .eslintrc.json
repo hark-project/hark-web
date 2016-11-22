@@ -1,0 +1,68 @@
+{
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"plugins": [
+		"react"
+	],
+	"globals": {
+		"Promise": true
+	},
+	"rules": {
+		"no-var": 1,
+		"eqeqeq": 1,
+		"no-extra-parens": 1,
+		"no-unsafe-negation": 1,
+		"valid-jsdoc": 2,
+		"no-unused-vars": 1,
+		"array-callback-return": 1,
+		"default-case": 1,
+		"guard-for-in": 1,
+		"no-alert": 1,
+		"no-caller": 1,
+		"no-console": 0,
+		"no-empty-function": 2,
+		"no-eval": 1,
+		"no-extend-native": 1,
+		"no-extra-bind": 1,
+		"no-global-assign": 1,
+		"no-implied-eval": 1,
+		"no-invalid-this": 1,
+		"no-lone-blocks": 1,
+		"no-multi-spaces": 1,
+		"no-new": 1,
+		"no-param-reassign": 1,
+		"no-script-url": 1,
+		"no-useless-call": 1,
+		"no-useless-concat": 1,
+		"no-with": 1,
+		"vars-on-top": 1,
+		"radix": 1,
+		"yoda": 1,
+		"no-catch-shadow": 1,
+		"no-undefined": 1,
+		"arrow-body-style": ["error", "always"],
+		"arrow-spacing": 1,
+		"no-const-assign": 1,
+		"no-confusing-arrow": 1,
+		"no-this-before-super": 1,
+		"no-useless-constructor": 1,
+		"no-useless-rename": 1,
+		"prefer-arrow-callback": 1,
+		"prefer-rest-params": 1,
+		"semi": 1,
+		"react/jsx-uses-vars": 2,
+		"react/jsx-uses-react": 2,
+		"react/prop-types": 1,
+		"react/react-in-jsx-scope": 2,
+		"react/require-render-return": 2,
+		"react/prefer-es6-class": 1,
+		"no-debugger": 0,
+		"no-case-declarations": 0
+	}
+}

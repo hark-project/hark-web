@@ -1,0 +1,15 @@
+{
+    "presets": [
+        "es2015",
+        "stage-0",
+        "react"
+    ],
+    "env": {
+        "development": {
+            "plugins": [ "transform-react-jsx", "react-hot-loader/babel" ]
+        },
+        "production": {
+            "plugins": [ "transform-react-jsx" ]
+        }
+    }
+}
